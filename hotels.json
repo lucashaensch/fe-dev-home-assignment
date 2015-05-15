@@ -1,0 +1,151 @@
+[
+	{
+		"name": "Hotel Fantastique",
+		"rating": 5,
+		"address": "72b Rue de Awesome, 75001, Paris, France",
+		"description": "Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service.",
+		"facilities": ["Free Wifi","Concierge","Satellite TV","Swimming Pool","Restaurant","Room Service","Gym","Free Parking","24/7 Reception","Shoe-Shine"],
+		"rooms": [
+			{
+				"roomName": "Room 1",
+				"occupancy": "2",
+				"pricePerRoom": "88.99",
+				"numberOfRooms": "5"
+			},{
+				"roomName": "Room 2",
+				"occupancy": "6",
+				"pricePerRoom": "98.99",
+				"numberOfRooms": "7"
+			},{
+				"roomName": "Room 3",
+				"occupancy": "3",
+				"pricePerRoom": "82.99",
+				"numberOfRooms": "4"
+			},{
+				"roomName": "Room 4",
+				"occupancy": "2",
+				"pricePerRoom": "92.99",
+				"numberOfRooms": "4"
+			},{
+				"roomName": "Room 5",
+				"occupancy": "4",
+				"pricePerRoom": "113.99",
+				"numberOfRooms": "8"
+			}
+		],
+		"reviews": [
+			{
+				"rating": 5,
+				"author": "Fantastique",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			},{
+				"rating": 8,
+				"author": "Fantastica",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			},{
+				"rating": 7,
+				"author": "Fantastico",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			},{
+				"rating": 10,
+				"author": "Fantastiqui",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			}
+		],
+		"photos": [
+			{
+				"alt": "Description of photo 1",
+				"images": {
+					"200x200": "img/1_thumb.jpg",
+					"840x460": "img/1_large.jpg"
+				}
+			},{
+				"alt": "Description of photo 2",
+				"images": {
+					"200x200": "img/2_thumb.jpg",
+					"840x460": "img/2_large.jpg"
+				}
+			},{
+				"alt": "Description of photo 3",
+				"images": {
+					"200x200": "img/3_thumb.jpg",
+					"840x460": "img/3_large.jpg"
+				}
+			}
+		]
+	},{
+		"name": "Hotel Pellentesque",
+		"rating": 3,
+		"address": "62b Rue de Awesomeness, 75201, Amsterdam, Brazil",
+		"description": "Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service.",
+		"facilities": ["Free Wifi","Restaurant","Room Service","Gym","Free Parking","24/7 Reception","Shoe-Shine"],
+		"rooms": [
+			{
+				"roomName": "Room 1",
+				"occupancy": "2",
+				"pricePerRoom": "88.99",
+				"numberOfRooms": "5"
+			},{
+				"roomName": "Room 2",
+				"occupancy": "6",
+				"pricePerRoom": "98.99",
+				"numberOfRooms": "7"
+			},{
+				"roomName": "Room 3",
+				"occupancy": "3",
+				"pricePerRoom": "82.99",
+				"numberOfRooms": "4"
+			},{
+				"roomName": "Room 4",
+				"occupancy": "2",
+				"pricePerRoom": "92.99",
+				"numberOfRooms": "4"
+			},{
+				"roomName": "Room 5",
+				"occupancy": "4",
+				"pricePerRoom": "113.99",
+				"numberOfRooms": "8"
+			}
+		],
+		"reviews": [
+			{
+				"rating": 5,
+				"author": "Pellentesque",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			},{
+				"rating": 8,
+				"author": "Pellentesca",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			},{
+				"rating": 7,
+				"author": "Pellentesco",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			},{
+				"rating": 10,
+				"author": "Pentellesco",
+				"comment": "Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet."
+			}
+		],
+		"photos": [
+			{
+				"alt": "Description of photo 1",
+				"images": {
+					"200x200": "img/1_thumb.jpg",
+					"840x460": "img/1_large.jpg"
+				}
+			},{
+				"alt": "Description of photo 2",
+				"images": {
+					"200x200": "img/2_thumb.jpg",
+					"840x460": "img/2_large.jpg"
+				}
+			},{
+				"alt": "Description of photo 3",
+				"images": {
+					"200x200": "img/3_thumb.jpg",
+					"840x460": "img/3_large.jpg"
+				}
+			}
+		]		
+	}
+]

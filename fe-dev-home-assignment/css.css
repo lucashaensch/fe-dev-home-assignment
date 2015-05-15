@@ -55,6 +55,62 @@ h2 {
 	color: #feba02;
 }
 
+/* carousel arrows */
+
+.arrow {
+	height: 475px;
+	width: 30px;
+	cursor: pointer;
+}
+
+.arrow:hover {
+	cursor: pointer;
+}
+
+.prev-icon {
+	position: absolute;
+	top: 350px;
+	font-size: 40px;
+	color: #bbb;
+}
+
+.next-icon {
+	position: absolute;
+	top: 350px;
+	font-size: 40px;
+	color: #333;
+}
+
+.active-arrow {
+	color: #333;	
+}
+
+/* carousel */
+
+.carousel {
+	display: flex;
+}
+
+.carousel-window {
+	width: 840px;
+	height: 475px;
+	overflow: hidden;
+	margin: 0 30px 0 30px;
+}
+
+.carousel-list {
+	position: relative;
+	width: 12000px;
+	padding: 0;
+	left: 0;
+	transition-duration: 0.4s;
+}
+
+.carousel-item {
+	list-style: none;
+	float: left;
+}
+
 /* photos */
 
 .photos ul {
