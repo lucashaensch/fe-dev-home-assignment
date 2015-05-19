@@ -84,6 +84,38 @@ h2 {
 	display: flex;
 }
 
+.photo-description {
+	height: 50px;
+	background-color: #333;
+	position: absolute;
+	z-index: 2;
+	top: 400px;
+	color: #fff;
+	font-size: 27px;
+	font-family: Calibri;
+	line-height: 50px;
+	text-align: center;
+	padding: 0 30px;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.photo-description:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+
 .carousel-window {
 	width: 840px;
 	height: 475px;
@@ -128,6 +160,9 @@ h2 {
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
 	opacity: 0.7;
 }
 
@@ -188,7 +223,8 @@ h2 {
 	padding: 5px 15px;
 	color: #fff;
 	font-weight: bold;
-	box-shadow: 0 0 3px #666;
+	-webkit-box-shadow: 0 0 3px #333;
+	box-shadow: 0 0 3px #333;
 	font-size: 13px;
 }
 

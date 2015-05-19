@@ -1,8 +1,6 @@
 // you can enter your JS here!
-var lastDirection = "right",
-	direction = "right",
+var direction = "right",
 	carouselOnTheMove = false,
-	carouselElement = document.getElementById("carousel-list"),
 	hotelImageSize = 840,
 	pagination,
 	carousel = (function() {
@@ -29,7 +27,7 @@ var lastDirection = "right",
 			},
 			configureCarouselClick = function(event){
 				if (!carouselOnTheMove) {
-					direction = (event.target && event.target.className === "prev-icon") ? "left" : "right";
+					direction = (event && event.target && event.target.className === "prev-icon") ? "left" : "right";
 					$( ".carousel-list" ).css("left", function(index, currValue){
 						currValue = Number(currValue.slice(0,-2));
 						if (outOfBoundaries(currValue, direction)) {
@@ -43,17 +41,15 @@ var lastDirection = "right",
 						}
 					});
 					setCooldown();
-					lastDirection = direction;
 				};
 			};
 
-			/* Event listeners */
-
+			// Event listeners 
 			$( ".prev" ).click(function(event) {
 				configureCarouselClick(event);
 			}); 
 
-			$( ".next" ).click(function() {
+			$( ".next" ).click(function(event) {
 				configureCarouselClick(event);
 			});
 
@@ -65,6 +61,13 @@ var lastDirection = "right",
 				setPagination();
 			});
 
+			// Adding descriptions to span
+			$( ".photo-description" ).each(function(k,v){
+				var altDescription = v.nextSibling.getAttribute('alt');
+				v.innerHTML = altDescription;
+			});
+
+			// Setting pagination for the first time
 			pagination = setInterval(function(){
 				configureCarouselClick({});
 			},5000);
