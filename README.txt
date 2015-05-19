@@ -16,22 +16,22 @@ Browser support should include IE8+, Chrome, Safari, FF.
 Tasks
 ========================================
 
- *  Imagine there is a JSON feed with hotels similar to the current one.
- 	Design JSON format and use the feed to display similar hotels on the page.
-
- *  Split the reviews into blocks of 5 and create pagination. Allow the user
-	to sort the reviews by review score.
-
- *  Improve the room table. Allow the user to sort the room table by occupancy
- 	or price, display a total when the user selects a quantity, display
- 	additional information about rooms.
-
- *  Create a photo carousel using the large photos linked from the thumbnails
+ 1  Create a photo carousel using the large photos linked from the thumbnails
 	currently in the page. Include an automatic	slideshow mode, add prev/next
 	buttons to manually controll the carousel, add a layer that shows the
 	contents of the images alt text.
 
- *  Improve the facilities block.
-
- *  Add an interactive location block to the page. It should contain a map and
+ 2  Add an interactive location block to the page. It should contain a map and
  	some nearby landmarks.
+
+ 3  Imagine there is a JSON feed with hotels similar to the current one.
+ 	Design JSON format and use the feed to display similar hotels on the page.
+
+ 4  Improve the room table. Allow the user to sort the room table by occupancy
+ 	or price, display a total when the user selects a quantity, display
+ 	additional information about rooms.
+
+ 5  Split the reviews into blocks of 5 and create pagination. Allow the user
+	to sort the reviews by review score.
+
+ 6  Improve the facilities block.
